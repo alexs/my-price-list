@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 
 public class MainActivity extends ActionBarActivity {
-    private String[] products = {"Ubuntu", "Android", "iOS", "Windows", "Mac OSX",
+    private String[] products = {"UbuntuUbuntuUbuntuUbuntuUbuntuUbuntuUbuntuUbuntuUbuntuUbuntu", "Android", "iOS", "Windows", "Mac OSX",
             "Google Chrome OS", "Debian", "Mandriva", "Solaris", "Unix", "Ubuntu", "Android", "iOS", "Windows", "Mac OSX",
             "Google Chrome OS", "Debian", "Mandriva", "Solaris", "Unix"};
 
