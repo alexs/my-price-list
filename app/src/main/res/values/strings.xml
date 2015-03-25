@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="add_product">Agregar producto</string>
+    <string name="title_activity_product_form">Nuevo producto</string>
 </resources>
