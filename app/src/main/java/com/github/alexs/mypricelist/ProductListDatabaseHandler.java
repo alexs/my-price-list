@@ -1,5 +1,6 @@
 package com.github.alexs.mypricelist;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -50,6 +51,18 @@ public class ProductListDatabaseHandler extends SQLiteOpenHelper{
             onCreate(db);
         }
 
+    }
+
+    // Insert record into database
+    public void addProduct(Product product){
+        //Open database
+        SQLiteDatabase db = this.getWritableDatabase();
+        //Define values for each field
+        ContentValues values = new ContentValues();
+        values.put(PRODUCT_NAME, product.getName());
+        //Insert row
+        db.insertOrThrow(PRODUCT_TABLE,null,values);
+        db.close();
     }
 
     public List<Product> getAllProducts(){

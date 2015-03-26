@@ -2,11 +2,12 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 android:layout_width="match_parent"
-android:layout_height="match_parent" >
+android:layout_height="match_parent"
+    android:clickable="false">
 <TextView
     android:id="@+id/product_name_textview"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Name"
-    android:textSize="@dimen/abc_text_size_large_material" />
+    android:textSize="@dimen/abc_text_size_display_1_material" />
 </LinearLayout>
