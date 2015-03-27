@@ -65,6 +65,11 @@ public class MainActivity extends ActionBarActivity {
         //Toast.makeText(this, "Hello World", Toast.LENGTH_LONG).show();
     }
 
+    public void showProductPriceForm(MenuItem item){
+        Intent intent = new Intent(this,ProductPriceForm.class);
+        startActivity(intent);
+    }
+
     private void openDB(){
         productDb = new ProductListDatabaseHandler(this);
     }

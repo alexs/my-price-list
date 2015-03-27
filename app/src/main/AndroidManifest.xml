@@ -20,6 +20,10 @@
             android:name=".ProductForm"
             android:label="@string/title_activity_product_form" >
         </activity>
+        <activity
+            android:name=".ProductPriceForm"
+            android:label="@string/title_activity_product_price_form" >
+        </activity>
     </application>
 
 </manifest>
